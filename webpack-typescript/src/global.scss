@@ -8,23 +8,49 @@ body {
     flex-direction: column;
     justify-content: center;
     background-color: rgb(19, 18, 21);
-    img {
-        max-width: 100%;
+    div:nth-last-child(1){
+        margin-top: 110px;
     }
     div{
+        position: relative;
         display: inherit;
         align-items: inherit;
         flex-direction: inherit;
         font-family: inherit;
         justify-content: inherit;
         font-size: inherit;
+        img{
+            position: absolute;
+            -webkit-user-drag: none;
+            user-select: none;
+        }
         div{
             margin: 4px;
         }
         div:nth-last-child(1) {
             margin-top: 20px;
             font-size: 14px;
-            background-color: rgb(102, 28, 248);
+            background-color: #661cf8;
         }
     }
 }
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes rotating {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .rotating {
+    animation: rotating 3s linear infinite;
+  }
