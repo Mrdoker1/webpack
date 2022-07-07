@@ -1,5 +1,3 @@
-<img src="https://raw.githubusercontent.com/Mrdoker1/webpack/main/webpack-typescript/src/assets/img/image.png" alt="drawing" width="200" draggable="false"/>
-
 # Setup
 #### Download and run *'npm install'* in "webpack-typescript" folder
 #### Run *'npm run server'* to check webpack working or not
