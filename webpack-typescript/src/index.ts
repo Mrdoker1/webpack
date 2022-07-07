@@ -8,7 +8,6 @@ let img: HTMLImageElement = document.createElement('img');
 let info: HTMLElement = document.createElement('div');
 
 img.src = image;
-img.height = 400;
 info.innerHTML = `<div>${func()}</div><div>SCSS compiler works!</div><div>Webpack version 8.4.0</div>`;
 
 body.append(img);
