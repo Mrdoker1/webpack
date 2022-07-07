@@ -1,3 +1,8 @@
+# Setup
+
+#### > Download and *'run npm install'* in "webpack-typescript" folder
+#### > Run *'npm run server'* to check webpack working or not
+
 # Script List
 
 #### > Run *'npm run watch'* to enable files change tracking

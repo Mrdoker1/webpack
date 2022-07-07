@@ -1,3 +1,3 @@
 export default function () {
-    console.log('Export works!');
+    return 'Export works!';
 }
